@@ -1046,6 +1046,7 @@ class MakeDataset(QtWidgets.QDialog, ui_MD.Ui_Form):
 
 
 if __name__ == "__main__":
+    print("hi")
     app = QtWidgets.QApplication(sys.argv)
     main = MainWindow()
     sys.exit(app.exec())
